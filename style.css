@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* main{
+    display: flex;
+    height: 100vh;
+}
+.container{
+    width: 30%;
+    height: 80%;
+    background-color: aqua;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.container .header{
+    font-size: 30px;
+}
+.container span {
+    font-size: 100px;
+    display: block;
+    font-weight: 900;
+    text-align: center;
+  }
+.my-buttons{
+    display: flex;
+    flex-direction: row;
+} */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 30%;
+    padding: 20px 10px;
+    background: #c4c4c4;
+
+  }
+  
+  .container p {
+    text-align: center;
+  }
+  
+  .container .header {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .container span {
+    font-size: 100px;
+    display: block;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  .my-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+  }
+button{
+    border: none;
+    outline: none;
+    padding: 11px 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.my-buttons .decrease{
+    color: #e4215c;
+    background: #fff;
+}
+.my-buttons  .increase{
+    color: #93d823;
+    background: #fff;
+}
+.my-buttons .reset{
+    color: #22436c;
+    background: #fff;
+}
+
+@media screen and (max-width: 1020px) {
+    body {
+      background-color: lightgreen;
+
+    }
+    .container {
+        width: 90%;
+        padding: 20px 10px;
+        background: #c4c4c4;
+    
+      }
+    .my-buttons {
+        display: flex;
+         flex-direction: column;
+        justify-content: space-evenly; 
+        align-items: center;
+        width: 70%;
+        margin: 20px auto;
+      }
+      button{
+        border: none;
+        outline: none;
+        padding: 11px 20px;
+        font-style: normal;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 10px;
+        justify-content: center;
+        align-content: center;
+        /* margin: auto; */
+        cursor: pointer;
+        width: 100px;
+    }
+  }
